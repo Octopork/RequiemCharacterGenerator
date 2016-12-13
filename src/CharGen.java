@@ -110,7 +110,7 @@ public class CharGen
 
     }
 
-    private static void chooseRace() //defines starting skills as well. Skills however are only used in a couple conditions so they can be largely ignored.
+    private static void chooseRace() //defines starting skills as well. Storage.Skills however are only used in a couple conditions so they can be largely ignored.
     {
         Random racial = new Random(); 
         race = racial.nextInt(10); 

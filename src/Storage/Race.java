@@ -1,3 +1,5 @@
+package Storage;
+
 /**
  * @author Octopork
  *         Date 13/12/2016.
@@ -22,7 +24,7 @@ public class Race {
 
     /***
      * Notice Method is named the same as the class
-     * This is called a constructor, when you use something like "Race breton = new Race()" this method is called
+     * This is called a constructor, when you use something like "Storage.Race breton = new Storage.Race()" this method is called
      * This is a great place to pass all the data you wish to add into the object as it's created or do something upon creation
      *
      * @param raceEnum The enum of the race, not used currently but easy enough to just put there if it's needed in the future
@@ -32,7 +34,7 @@ public class Race {
      * @param minorAffinities For +5 by default skills, you get the idea.
      * @param longDescription Long description of the race.
      */
-    public Race(Races raceEnum,String raceName, Skills[] masterAffinities, Skills[] majorAffinities, Skills[] minorAffinities, String longDescription){
+    public Race(Races raceEnum, String raceName, Skills[] masterAffinities, Skills[] majorAffinities, Skills[] minorAffinities, String longDescription){
         //using this rather than different names is personal preferrence, i find this easy to read.
         this.raceEnum = raceEnum;
         this.raceName = raceName;
